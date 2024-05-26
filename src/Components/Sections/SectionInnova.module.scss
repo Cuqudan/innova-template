@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.innova {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://preview.colorlib.com/theme/innova/images/hero_2.jpg");
+  background-attachment: fixed;
+  .innovabackgraund {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    width: 70%;
+    text-align: center;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 112px;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width:991px) {
+    .innova{
+        h1{
+            font-size: 48px;
+        }
+    }
+}
+@media screen and (max-width:576px) {
+    .innova{
+        h1{
+           width: 95%;
+        }
+    }
+}
